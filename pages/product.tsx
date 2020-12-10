@@ -25,24 +25,7 @@ const Index = (): JSX.Element => {
         <Label>140+</Label>
         Trash
       </Menu.Item>
-      <Menu.Item
-        name="Invites"
-        active={state.activeItem === 'Invites'}
-        onClick={(e, { name }) => setState({ activeItem: name })}
-      >
-        <Icon className="icomoon i-user-add" />
-        <Label>19+</Label>
-        Invites
-      </Menu.Item>
-      <Menu.Item
-        name="Bookmarks"
-        active={state.activeItem === 'Bookmarks'}
-        onClick={(e, { name }) => setState({ activeItem: name })}
-      >
-        <Icon className="icomoon i-bookmark" />
-        <Label>14+</Label>
-        Bookmarks
-      </Menu.Item>
+
       <Menu.Item
         name="Setting"
         active={state.activeItem === 'Setting'}
