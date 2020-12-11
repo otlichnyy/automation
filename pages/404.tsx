@@ -18,9 +18,7 @@ const Index = (): JSX.Element => {
       </Menu.Item>
       <Menu.Item
         name="Trash"
-        active={state.activeItem === 'Trash'}
-        onClick={(e, { name }) => setState({ activeItem: name })}
-      >
+        active={state.activeItem === "" }
         <Icon className="icomoon i-trash" />
         <Label>140+</Label>
         Trash
