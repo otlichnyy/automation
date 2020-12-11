@@ -1,5 +1,5 @@
 # automation
-<a href="https://github.com/otlichnyy/automation/actions?query=workflow%3A%22Test%2C+Linting+%26+Type-check%22"><img alt="status badge" src="https://github.com/otlichnyy/automation/workflows/Test,%20Linting%20&%20Type-check/badge.svg?branch=master&event=push"></a>
+[![DeepScan grade](https://deepscan.io/api/teams/12076/projects/15031/branches/294104/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=12076&pid=15031&bid=294104)
 
  - testing [basic done]
  - code quality
